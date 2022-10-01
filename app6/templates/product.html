@@ -1,0 +1,194 @@
+
+
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+
+
+<!-- -------------------Breadcrum start-------------------- -->
+
+<div class="card text-white" style="border: none">
+ <div class="body">
+    <div class="rgba">
+  <div class="card-img-overlay">
+      <div class="container">
+      <h1 class="card-title mt-5" style="font-weight: bold;">Album</h1>
+
+      <p class="card-text">
+        <nav aria-label="breadcrum">
+         <ol class="breadcrumb">
+          <li class="breadcrumb-item" style="font-weight: bold;">Home</li>
+          <li class="breadcrumb-item" aria-current="page" style="font-weight: bold;">Music</li>
+          <li class="breadcrumb-item" aria-current="page" style="font-weight: bold;">Album</li>
+        </ol>
+          </nav>
+        </p>
+      </div>
+
+    
+
+  </div>
+  </div>
+    </div>
+
+</div>
+
+<!-- -----------------------Breadcrum ends----------------------- -->
+
+
+<!-- ---------------------------Section 1 start------------------- -->
+<br>
+<br>
+<br>
+
+<div class="container">
+  <div class="row  product_part1 divide" style="color: black;">
+    <div class="col-6 divide1" >
+      <img class="img-fluid product1 " src="{% static 'img/product-big-1-500x455.jpg' %}">
+    </div>
+
+
+    <div class="col-6 mt-5 divide1" ><h4 style="color: #f63c25"><i class="fa fa-usd" aria-hidden="true"></i>
+15.00</h4>
+      <p><i class="fa fa-star" aria-hidden="true"  style="color: #FFCC00;"></i> <i class="fa fa-star" aria-hidden="true" style="color: #FFCC00;"> </i>
+<i class="fa fa-star" aria-hidden="true"  style="color: #FFCC00;"></i>
+<i class="fa fa-star" aria-hidden="true"  style="color: #FFCC00;"></i>
+<i class="fa fa-star" aria-hidden="true"  style="color: #FFCC00;"></i>
+
+</p>
+<p style="color: gray;">This is a simple, virtual product</p>
+<div style="font-weight: bold; color: black; font-size:18px;">Availability:   <span style="color:gray; margin-left:25px; font-weight: 10px;"><i class="fa fa-check-square" aria-hidden="true"></i> In Stock
+</span></div>
+<br>
+<br>
+  <div class="row">
+    <div class="col-2">
+      <div class="hstack gap-3">
+  <div class="bg-light rounded border " style="width: 80px; height: 48px; padding-left: 18px; padding-top: 7px;" >1<span style="margin-left:20px; margin-top: 0px;">+</span></div>
+</div>
+    </div>
+    <div class="col-4">
+      <button type="button" class="btn btn product_btn1">Add To Cart</button>
+    </div>
+    <div class="col-2">
+      <button type="button" class="btn btn product_btn1"><i class="fa fa-heart" aria-hidden="true" style="color: white"></i>
+      </button>
+</div>
+<br>
+<br>
+<br>
+<p>SKU:<span style="color: gray;">  Woo-Album</span>
+<br>Category:<span style="color: gray;"> Music</span></p>
+  </div>
+  </div>
+  
+
+    
+  </div>
+
+
+<br>
+<br>
+<br>
+
+<!---------------------Section 1------------------------------ -->
+
+<div class="container">
+<ul class="nav nav-pills border_product" id="pills-tab" role="tablist" style="justify-content: center;">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true" style="align-content: center; font-weight:bold;">Description</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false" style="font-weight: bold;">Review (1)</button>
+  </li>
+</ul>
+<br>
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" style="color: gray; font-size: 15px; line-height: 2;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sagittis orci ac odio dictum tincidunt. Donec ut metus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed luctus, dui eu sagittis sodales, nulla nibh sagittis augue, vel porttitor diam enim non metus. Vestibulum aliquam augue neque. Phasellus tincidunt odio eget ullamcorper efficitur. Cras placerat ut turpis pellentesque vulputate. Nam sed consequat tortor. Curabitur finibus sapien dolor. Ut eleifend tellus nec erat pulvinar dignissim. Nam non arcu purus. Vivamus et massa massa.</div>
+
+
+
+  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+    <div class="card mb-3 p-4" style="max-width: 100%; border: none; background-color: #f9f9f9;">
+  <div class="row g-0">
+    <div class="col-md-1">
+      <img src="{% static 'img/none.png' %}" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-11">
+      <div class="card-body">
+        <div class="d-flex" style="justify-content: space-between;">
+        <h5 class="card-title">Gimia</h5>
+        <div>
+        <i class="fa fa-star" aria-hidden="true"  style="color: #FFCC00;"></i>
+        <i class="fa fa-star" aria-hidden="true"  style="color: #FFCC00;"></i>
+        <i class="fa fa-star" aria-hidden="true"  style="color: #FFCC00;"></i>
+        <i class="fa fa-star" aria-hidden="true"  style="color: #FFCC00;"></i>
+        <i class="fa fa-star" aria-hidden="true"  style="color: #FFCC00;"></i>
+      </div>
+      </div>
+        <p class="card-text"><small class="text-muted" style="color: red;">December 31, 2021 at 9:21 am</small></p>
+        <p class="card-text"><small class="text-muted">Progressively procrastinate mission-critical action items before team building ROI. Interactively provide access to cross functional quality vectors for client-centric catalysts for change.</small></p>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+<div class="p-4" style="background-color: #f9f9f9;">
+  <h6 style="font-weight: bold;">Add Your Review</h6>
+  <p style="color: gray; font-size: 18px;">Your email address will not be published. Required fields are marked *</p>
+  <p style="color: gray; font-size:18px;">Your Rating 
+
+
+   <i class="fa fa-star-o" aria-hidden="true" style="color: #FED148;"></i> 
+    <i class="fa fa-star-o" aria-hidden="true" style="color: #FED148;"></i> 
+    <i class="fa fa-star-o" aria-hidden="true" style="color: #FED148;"></i> 
+    <i class="fa fa-star-o" aria-hidden="true" style="color: #FED148;"></i> 
+      <i class="fa fa-star-o" aria-hidden="true" style="color: #FED148;"></i>
+  </p>
+
+  <div class="mb-3" >
+  <label for="exampleFormControlTextarea1" class="form-label" ></label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Write your comments" rows="3" style="background-color: transparent;"></textarea>
+  <br>
+  <div class="row">
+    <div class="col-6 divide2">
+      <input type="text" class="form-control" placeholder="Your Name" aria-label="Your" aria-describedby="basic-addon2" style="background-color: transparent;" >
+    </div>
+    <div class="col-6 divide2">
+      <input type="text" class="form-control" placeholder="Your E-mail" aria-label="Your" aria-describedby="basic-addon2" style="background-color: transparent;" >
+    </div>
+  </div>
+  <br>
+  <div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+  <label class="form-check-label" for="flexCheckDefault" style="color: gray; font-size: 18px;">
+    Save my name, email, and website in this browser for the next time I comment.
+  </label>
+</div>
+<br>
+  <button class="btn btn-danger1" type="button">Post Review</button>
+</div>
+</div>
+  </div>
+</div>
+</div>
+</div>
+<br>
+
+
+
+
+
+
+<br>
+<br>
+<br>
+
+
+
+
+
+{% endblock %}

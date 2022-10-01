@@ -1,0 +1,936 @@
+/*Home*/
+
+.logo1{
+	height: 80px;
+	width: 80px;
+	position: relative;
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px){
+	.logo1{
+		height: 40px;
+		width: 40px;
+	}
+}
+
+.logo2{
+	height: 80px;
+	width: 80px;
+	position: absolute;
+}
+
+.home_img1{
+	position: relative;
+}
+
+.round-circle{
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	bottom: 0px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px){
+	.round-circle{
+		height: auto;
+	}
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px){
+	.logo2{
+		height: 40px;
+		width: 40px;
+	}
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px){
+	.nav_block{
+		display: none;
+	}
+}
+
+.btn-danger:hover{
+	background: black;
+	transition: 1s;
+
+}
+
+.first_part1{
+	background-size: cover;
+	height: 100vh;
+	background-image: url(Images/hero3-1.jpg);
+}
+
+.home_img1{
+
+	position: relative;
+}
+
+.home_img12{
+	position: absolute;
+}
+
+@media screen and (min-width: 300px) (max-width: 800px){
+
+}
+
+/*.home_head1{
+	border-bottom: 1px solid red;
+	width: 275px;
+}*/
+
+.border_button{
+	color: red;
+	background: transparent;
+	border: 1px solid red;
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 800px){
+	.second_part{
+		display: block;
+	}
+}
+
+.second_card_text{
+	color: gray;
+}
+
+.second_btn{
+	color: red;
+	background-color: white;
+	border: 2px solid red;
+}
+
+
+
+.third_btn{
+	color: white;
+	background-color: #F63C25;
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px){
+	.third_flex{
+		display: block;
+	}
+
+	.colls1{
+		width: 100%;
+		height: auto;
+	}
+}
+
+
+.border_3{
+	background-color: red;
+	color: white;
+}
+
+.accordion-button{
+	background-color: white;
+	color: black;
+	font-weight: bold;
+}
+
+
+.accordion-button:not(.collapsed){
+	background-color: red ;
+	color: white;
+}
+
+.accordion-button::after{
+	height: 15px;
+	width: 15px;
+	background-image: url(plus.png);
+	background-size: cover;
+}
+
+.accordion-button:not(.collapsed)::after{
+	height: 15px;
+	width: 15px;
+	background-image: url(minus-sign.png);
+	background-size: cover;
+}
+
+.btn_learn-btn{
+	color: white;
+	background-color: #F63C25;
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px){
+	.fifth_part{
+		display: block;
+		width: 100%;
+	}
+}
+
+.fifth_part2{
+	box-shadow: 1px 1px 6px 3px gray;
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 800px){
+	.fifth_part1{
+		width: 100%;
+	}
+}
+
+.sixth_box{
+	background-color: whitesmoke;
+}
+
+.six_btn{
+	font-weight: bold;
+	/*border-bottom: 1px solid black;*/
+	text-decoration: underline;
+}
+
+.six_btn: hover{
+	border-bottom: 1px solid black;
+}
+
+.six_btn1{
+	background-color: #F63C25;
+	color: white;
+}
+
+
+.blue_bg{
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	background-image: url(Images/alpona.png);
+}
+
+.eight_btn{
+	background-color: #f63c25;
+}
+
+.shadow_effect:hover{
+	border: 1px solid whitesmoke;
+	background-color: white;
+	box-shadow: 0px 5px 10px 5px lightgrey;
+	
+
+}
+
+
+
+
+
+/*<product>*/
+
+
+
+
+@media screen and (min-width: 300px) and (max-width: 800px){
+	.product_breadcrum{
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+}
+
+.product_btn1{
+	font-weight: bold;
+	color: white;
+	background-color: #f63c25;
+}
+
+.@media screen and (min-width: 300px) and (max-width: 800px){
+	.product_part1{
+		display: block;
+		height: auto;
+	}
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px){
+	.footer{
+		display: block;
+		height: auto;
+	}
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px){
+	.inside-footer{
+		width: 100%;
+	}
+}
+
+.ul_footer{
+	list-style-type: none;
+}
+
+.ul_footer li{
+	line-height: 2;
+	font-size: 17px;
+	color: #818790;
+	font-weight: bold;
+}
+
+
+.contact_btn1{
+	justify-content: center;
+	background-color: #F63C25;
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px){
+	.contact_flex{
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 800px){
+	.contact_flex1{
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+}
+
+.nav-pills .nav-link.active, .border_product .show>.nav-link{
+	color: red;
+	background-color: transparent;
+}
+
+.border_product{
+	border-bottom: 1px solid whitesmoke;
+}
+
+.nav-link{
+	color: black;
+}	
+
+@media screen and (min-width: 300px) and (max-width: 800px){
+	.comments{
+		width: 100%;
+		display: block;
+		height: auto;
+	}
+	
+}
+
+.btn-blog:hover{
+	background-color: black;
+	transition: 1s;
+	border-radius: 0px;
+}
+
+.btn-light: hover{
+	background-color: red;
+}
+
+.btn-outline-danger{
+	background-color: white;
+}
+
+.circle{
+	align-items: center;
+	border: 1px solid lightgrey;
+	height: 160px;
+	width: 160px;
+	border-radius: 50%;
+	margin: auto;
+	padding: 50px;
+}
+
+/*.circle:hover{
+	background-color:  #F63C25;
+}
+*/
+/*footer styling*/
+
+.red_color:hover{
+	color: #f63c25;
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 800px){
+	.divide{
+		display: block;
+	}
+
+	.divide1{
+		width: 100%;
+	}
+
+	.small_img {
+		width: 50%;
+		height: auto;
+	}
+}
+
+
+
+
+.tracking-in-expand-fwd-bottom {
+	-webkit-animation: tracking-in-expand-fwd-bottom 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand-fwd-bottom 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+
+/* ----------------------------------------------
+ * Generated by Animista on 2022-4-16 17:37:52
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation tracking-in-expand-fwd-bottom
+ * ----------------------------------------
+ */
+@-webkit-keyframes tracking-in-expand-fwd-bottom {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px) translateY(500px);
+            transform: translateZ(-700px) translateY(500px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(1) translateY(0);
+            transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand-fwd-bottom {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px) translateY(500px);
+            transform: translateZ(-700px) translateY(500px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    -webkit-transform: translateZ(0) translateY(0);
+            transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}
+
+
+
+.kenburns-left {
+	-webkit-animation: kenburns-left 1s ease-out backwards;
+	        animation: kenburns-left 1s ease-out backwards;
+}
+
+.bg-img1{
+	background-image: url(Images/product-big-1.jpg);
+	height: 350px;
+	width: 100%;
+	background-size: cover;
+
+}
+
+.bg-img2{
+	background-image: url(Images/product-big-2.jpg);
+	height: 350px;
+	width: 100%;
+	background-size: cover;
+
+}
+
+.bg-img3{
+	background-image: url(Images/product-big-3.jpg);
+	height: 350px;
+	width: 100%;
+	background-size: cover;
+
+}
+
+.bg-img4{
+	background-image: url(Images/product-big-4.jpg);
+	height: 350px;
+	width: 100%;
+	background-size: cover;
+}
+
+.bg-img5{
+	background-image: url(Images/product-big-5.jpg);
+	height: 350px;
+	width: 100%;
+	background-size: cover;
+
+}
+
+.bg-img6{
+	background-image: url(Images/product-big-6.jpg);
+	height: 350px;
+	width: 100%;
+	background-size: cover;
+
+}
+
+.bg-img7{
+	background-image: url(Images/product-big-7.jpg);
+	height: 350px;
+	width: 100%;
+	background-size: cover;
+
+}
+
+.bg-img8{
+	background-image: url(Images/product-big-8.jpg);
+	height: 350px;
+	width: 100%;
+	background-size: cover;
+
+}
+
+
+/*.scale-up-center :hover{
+	border-radius: 50%;
+	background-color: red;
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}*/
+
+/* ----------------------------------------------
+ * Generated by Animista on 2022-4-17 11:17:11
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation scale-up-center
+ * ----------------------------------------
+ */
+/*@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+*/
+
+
+/*.scale-up-hor-left {
+	background-color: black;
+	-webkit-animation: scale-up-hor-left 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-hor-left 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}*/
+
+/* ----------------------------------------------
+ * Generated by Animista on 2022-4-17 11:31:23
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- 
+
+/**
+ * ----------------------------------------
+ * animation scale-up-hor-left
+ * ----------------------------------------
+ */
+/*@-webkit-keyframes scale-up-hor-left {
+  0% {
+    -webkit-transform: scaleX(0.4);
+            transform: scaleX(0.4);
+    -webkit-transform-origin: 0% 0%;
+            transform-origin: 0% 0%;
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+    -webkit-transform-origin: 0% 0%;
+            transform-origin: 0% 0%;
+  }
+}
+@keyframes scale-up-hor-left {
+  0% {
+    -webkit-transform: scaleX(0.4);
+            transform: scaleX(0.4);
+    -webkit-transform-origin: 0% 0%;
+            transform-origin: 0% 0%;
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+    -webkit-transform-origin: 0% 0%;
+            transform-origin: 0% 0%;
+  }
+}*/
+
+/*.scale-up-hor-left:hover {
+	color: red;
+	-webkit-animation: scale-up-hor-left 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-hor-left 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}*/
+
+/* ----------------------------------------------
+ * Generated by Animista on 2022-4-17 11:36:3
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation scale-up-hor-left
+ * ----------------------------------------
+ */
+@-webkit-keyframes scale-up-hor-left {
+  0% {
+    -webkit-transform: scaleX(0.4);
+            transform: scaleX(0.4);
+    -webkit-transform-origin: 0% 0%;
+            transform-origin: 0% 0%;
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+    -webkit-transform-origin: 0% 0%;
+            transform-origin: 0% 0%;
+  }
+}
+@keyframes scale-up-hor-left {
+  0% {
+    -webkit-transform: scaleX(0.4);
+            transform: scaleX(0.4);
+    -webkit-transform-origin: 0% 0%;
+            transform-origin: 0% 0%;
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+    -webkit-transform-origin: 0% 0%;
+            transform-origin: 0% 0%;
+  }
+}
+
+.last_btn:hover{
+	color: white;
+	background-color: #F63C25;
+	border: none;
+}
+
+::placeholder{
+	font-size: 15px;
+}
+
+textarea{
+	border: 1px solid red;
+}
+
+.btn-danger1{
+	background-color: red;
+	color: white;
+	font-weight: bold;
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px){
+	.divide2{
+		margin-top: 10px;
+		width: 100%;
+		height: auto;
+	}
+}
+
+.form-check-input:checked {
+		border: none;
+    background-color: red;
+    border-color: #0d6efd;
+}
+
+.breadcrumb-item+.breadcrumb-item::before{
+	color: white;
+}
+
+.nav-pills .nav-link.active, .border_product .show>.nav-link{
+	color: black;
+}
+
+.scale-up-center:hover {
+	background-color: #F63C25;
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) reverse backwards;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) reverse backwards;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2022-4-17 22:51:24
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation scale-up-center
+ * ----------------------------------------
+ */
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+.text-div{
+	background: url(Images/brand-1.jpg);
+	height: 300px;
+	width: 400px;
+	background-size: cover;
+
+}
+
+.main_img{
+	background: rgba(0, 0, 0, 0.7);
+	color: black;
+	height: 300px;
+	width: 400px;
+	display: none;
+}
+
+.bg_og_img{
+	width: 100%;
+}
+
+
+/*
+parent hover : child div block*/
+
+.type_block{
+	display: none;
+}
+
+.back_img:hover .type_block{
+	display: block;
+}
+
+.right_float{
+	margin-right: 30px;
+	float: right;
+}
+
+
+.slide-top {
+	-webkit-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2022-4-21 9:27:27
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation slide-top
+ * ----------------------------------------
+ */
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+  }
+}
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+  }
+}
+
+
+.hot{
+	box-sizing: ;
+	margin-left: 150px;
+	padding-top: 12px;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	display: inline-block;
+	background-color: red;
+	border-radius: 50%;
+	color: white;
+}
+
+
+
+/* tab pane */
+
+
+.nav-link:focus, .nav-link:hover{
+	color: black;
+	border-bottom: 2px solid red;
+	border-radius: 0px;
+	
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px){
+	.product_breadcrum{
+		background-size: contain;
+		 background-position: center; 
+	}
+}
+/*
+.white_cast1{
+	border: 2px solid black;
+	height: 300px;
+	width: 100%;
+	background: rgba(173, 216, 230, 0.44);
+	position: absolute;
+	z-index: 1;
+}*/
+
+@media screen and (min-width: 300px) and (max-width: 800px){
+
+	.twenty_five{
+		display: none;
+	}
+}
+
+.home_head1{
+	margin-top: 150px;
+	margin-left: 50px;
+	color: red;
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px){
+	.home_head1{
+		margin-top: 0px;
+	}
+}
+
+.focus_part{
+	font-size: 40px;
+}
+
+@media screen and (min-width:  300px) and (max-width: 800px){
+	.focus_part{
+		font-size: 17px;
+	}
+}
+
+.focus_part2{
+	margin-top: 35px;
+}
+
+@media screen and (min-width:  300px) and (max-width:  800px){
+	.focus_part2{
+		margin-top: 0px;
+	}
+}
+
+.focus_part_button{
+	margin-top: 35px;
+}
+
+@media screen and (min-width: 300px) and (max-width:  800px){
+	.focus_part_button{
+		margin-top: 0px;
+	}
+}
+
+.home_head2{
+	font-size: 60px; 
+	color: black; 
+	font-weight: bold; 
+	margin-left: 50px;
+}
+
+.left_margin{
+	margin-left: 40px;
+}
+
+@media screen and (min-width:  300px) and (max-width: 800px){
+	.home_head2{
+		font-size: 30px;
+	}
+}
+
+@media screen and (min-width:  300px) and (max-width:  800px){
+	.third_shadow{
+		margin: 0px;
+		margin-bottom: 10px;
+	}
+}
+
+.body{
+	background-image: url(Images/breadcrumb-bg.jpg);
+	height: 500px;
+	width: 100%;
+	background-size: cover;
+	position: relative;
+	background-repeat: no-repeat;
+}
+
+.rgba{
+	position: absolute;
+	background: rgba(0, 0, 0, 0.45);
+	height: 500px;
+	width: 100%;
+}
+
+@media screen and (min-width: 300px) and (max-width:  800px){
+	.rgba{
+		background-size: contain;
+		background: rgba(0, 0, 0, 0);
+	}
+}
+
+
+.carousel-indicators [data-bs-target]{
+	height: 10px;
+	width: 10px;
+	background-color: red;
+	border-radius: 50%;
+}
+
+.small_size_btn{
+	margin-left: 150px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px){
+	.small_size_btn{
+		margin-left: 100px;
+	}
+}
